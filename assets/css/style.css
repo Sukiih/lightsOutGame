@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7c7979; 
+}
+
+#tabla {
+    background-color: black;
+    padding: 30px;
+    border: 5px solid;
+    border-image: linear-gradient(to right, #f379d0 0%, #74a2f1 100%);
+    border-image-slice: 1;
+}
+
+.celda {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 22, 99);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.celda.off {
+    background-color: rgb(32, 32, 32);
+}
+
